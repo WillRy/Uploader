@@ -1,0 +1,29 @@
+{
+    "name": "willry/uploader",
+    "description": "Automatizar o upload de arquivos, validando o tipo de arquivo e otimizando imagens",
+    "keywords": [
+        "willry",
+        "Uploader",
+        "upload",
+        "image upload",
+        "file upload"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Marques",
+            "email": "wiribasczky@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WillRy\\Uploader\\":"src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-gd": "*",
+        "ext-mbstring": "*",
+        "ext-exif": "*"
+    }
+}
